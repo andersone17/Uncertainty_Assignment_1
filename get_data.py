@@ -1,5 +1,4 @@
-# PYTHON FILE TO GET DATA
-
+# PYTHON FILE TO PULL DATA INTO THE REPO
 def download_data(force=False):
     """Download and extract course data from Zenodo."""
     import urllib.request, zipfile, os
